@@ -1,0 +1,8 @@
+apiVersion: simple.example.com/v1alpha1
+kind: NginxApp
+metadata:
+  namespace : demo
+  name: nginxapp-example
+spec:
+  image: nginx:1.8
+  replicas: 2

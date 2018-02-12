@@ -1,0 +1,7 @@
+note: NginxApp Example
+sample: |
+  apiVersion: simple.example.com/v1alpha1
+  kind: NginxApp
+  metadata:
+    name: nginxapp-example
+  spec:
